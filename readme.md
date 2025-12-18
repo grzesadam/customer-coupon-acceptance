@@ -27,14 +27,16 @@ A summary of findings for bar goers:
 more than 3: 69%
 
 
-4. Compare the acceptance rate between drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?
+4. Compare the acceptance rate between drivers who go to a bar more than once a month and are over the age of 
+25 to the all others.  Is there a difference?
 
 Acceptance rate for drivers who go to a bar more than once a month and are over the age of 25: 73.8%
 
 Acceptance rate for all other drivers:
 
 40.5%
-5. Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry.
+5. Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had 
+passengers that were not a kid and had occupations other than farming, fishing, or forestry.
 
 71.1%
 
@@ -47,4 +49,9 @@ Acceptance rate for all other drivers:
 - go to cheap restaurants more than 4 times a month and income is less than 50K.
 66.3%
 
-7.
+
+7. Th emain conclusion seems to be that drivers over 25 who frequent bars are much more likely to accept bar-related coupons, 
+especially when accompanied by non-kid passengers and not widowed (although we have not checked whether being widowed had an influence).
+Younger drivers and those with lower income visiting cheap restaurants also show higher acceptance rates, 
+indicating that age, social context, and economic factors significantly influence coupon acceptance behavior.
+
