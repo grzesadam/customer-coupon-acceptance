@@ -50,8 +50,68 @@ passengers that were not a kid and had occupations other than farming, fishing, 
 66.3%
 
 
-7. Th emain conclusion seems to be that drivers over 25 who frequent bars are much more likely to accept bar-related coupons, 
+7. The main conclusion seems to be that drivers over 25 who frequent bars are much more likely to accept bar-related coupons, 
 especially when accompanied by non-kid passengers and not widowed (although we have not checked whether being widowed had an influence).
 Younger drivers and those with lower income visiting cheap restaurants also show higher acceptance rates, 
 indicating that age, social context, and economic factors significantly influence coupon acceptance behavior.
 
+# Further Analysis
+
+First, let's explore wehther there are any subgroups that are much more eager to accept coupons than the general population.
+The overall acceptance rate is 56.93% of the surveyed individuals.
+
+For this puorpose, I have analysed the acceptance rates for all the distinct values of the categorical columns, namely:
+- gender,
+- age,
+- maritalStatus,
+- education,
+- occupation,
+- income,
+- Bar,
+- CarryAway,
+- RestaurantLessThan20,
+- Restaurant20To50,
+- car,
+- destination,
+- weather,
+- time,
+- passenger,
+
+In order to assess whether any of these values of those categories correspond to a significantly higher acceptance rate I stored
+the acceptance rates along the number of rows  for that group. This allows us to reject very low numbers of people who declared a given value. 
+To see whether the number of people is significant, I plotted the average number of participants divided by the number of distinct values of each category. 
+
+This resulted in the table
+Total acceptance rate: 56.93%
+Showing categories with rate > 62.63%
+
+| column           | category                                 |   n | avg n/val | rate   |
+|------------------|-------------------------------------------|-----:|----------:|--------:|
+| car              | Car that is too old to install Onstar :D |   21 |      2013 | 80.95% |
+| car              | Mazda5                                   |   22 |      2013 | 72.73% |
+| occupation       | Healthcare Practitioners & Technical     |  222 |       483 | 71.62% |
+| education        | Some High School                         |   88 |      2013 | 71.59% |
+| occupation       | Production Occupations                   |   88 |       483 | 70.45% |
+| occupation       | Healthcare Support                       |  242 |       483 | 69.83% |
+| occupation       | Construction & Extraction                |  154 |       483 | 68.83% |
+| passenger        | Friend(s)                                | 3148 |      3020 | 67.63% |
+| Restaurant20To50 | gt8                                      |  264 |      2416 | 66.29% |
+| time             | 2PM                                      | 1916 |      2416 | 66.08% |
+| Restaurant20To50 | 4~8                                      |  684 |      2416 | 65.35% |
+| occupation       | Protective Service                       |  175 |       483 | 64.57% |
+| Bar              | 4~8                                      | 1054 |      2416 | 63.76% |
+| occupation       | Architecture & Engineering               |  175 |       483 | 63.43% |
+| destination      | No Urgent Place                          | 5970 |      4026 | 63.40% |
+| age              | below21                                  |  504 |      1510 | 63.29% |
+
+
+I would reject the first two rows as they correspond to very low numbers of people (21 and 22).
+Interestingly, it seems that the highest acceptance rates of any coupons are healthcare practitioners and technical staff.
+Some High School and Production Occupations are also not very numerous, so I think the results are not so reliable. 
+What is more reliable are Healthcare Support and Construction & Extraction workers. 
+
+It also seems that people who have friends as passengers are much more likely to accept coupons. 
+
+Further analysis of pairwise combinations of these categories may yield more insights. I selected a few as shown on the chart below. 
+First thing we notice that many of these combinations lyield a small number of people (less than 100), so the results may not be very reliable.
+![img.png](img.png)
